@@ -145,3 +145,7 @@ To add a title to the workout, [UPDATE] the corresponding row:
     (1 Zeile)
 
 
+
+[SELECT]: https://www.postgresql.org/docs/current/static/sql-select.html
+[INSERT]: https://www.postgresql.org/docs/current/static/sql-insert.html
+[UPDATE]: https://www.postgresql.org/docs/current/static/sql-update.html
