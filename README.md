@@ -137,7 +137,7 @@ All workouts are listed in the `t_workouts`  table:
 
 To add a title to the workout, [UPDATE] the corresponding row:
 
-    training=# update t_workouts set title = 'The first workout';
+    training=# update t_workouts set title = 'The first workout' where id = 1;
     training=# select * from t_workouts;
      id |         timestamp          |       title
     ----+----------------------------+-------------------
